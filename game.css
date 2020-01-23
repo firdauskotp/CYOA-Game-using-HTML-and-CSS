@@ -1,0 +1,41 @@
+body{
+    /* background-image: url('title.jpg');
+    background-repeat: no-repeat; */
+    background-color: black;
+    overflow: hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.startp {
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    background-color: chocolate;
+    /* padding: 15px 15px 15px 15px; */
+}
+
+.starth1{
+    font-family: cursive;
+    color: burlywood;
+    font-size: 70px;
+    
+}
+
+/* a :hover{
+    text-decoration: underline;
+} */
+
+/* #tbg{
+    background: url("tbg.png");
+    height:100px;
+} */
+
+.sgamebody{
+    background-color:black;
+}
