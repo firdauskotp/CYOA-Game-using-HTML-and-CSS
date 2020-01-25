@@ -5,7 +5,39 @@
     </head>
 
     <body class="sgamebody">
-        <img src="tbg.png" class="center"/>
-        <p class='startp' align='center'>Which route do you want to play?</p>
+        <div id="choice">
+            <!-- <a href ="Leifstart.html">Leif, the heir to Thracia?</a> -->
+            <img src="tbg.png" class="center" alt='select route'/>
+            <!-- <div class="wrap">     -->
+                <a href ="Leifstart.html" id='leifstart'>
+                    <div class='centertext'>
+                        <!-- Leif -->
+                    </div>
+                </a>
+            <!-- </div>     -->
+                <a href="Finnstart.html">
+                    <div class='lefttext'>
+
+                    </div>
+                </a>
+                <a href="Nannastart.html">
+                    <div class='righttext'>
+
+                    </div>
+                </a>
+        </div>
+        <p class='startp' align='center'>Which route do you want to play? There are 3 routes:-</p>
+        <p class='startgamep' align='center'>
+            <a href ="Leifstart.html">Leif, the heir to Thracia?</a> (Center)
+            <br>
+            <a href="Finnstart.html">Finn, Knight of Manster</a> (Left)
+            <br>
+            <a href="Nannastart.html">Nanna, Princess of Nordion</a> (Right)
+        </p>
+
+        <audio src="music\charselect.mp3" autoplay loop>
+            <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+            <!-- <embed src="music\charselect.mp3" width="180" height="90" hidden="true" /> -->
+        </audio>
     </body>
 </html>
