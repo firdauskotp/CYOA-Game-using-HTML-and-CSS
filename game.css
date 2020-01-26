@@ -1,3 +1,10 @@
+html { 
+    overflow-y: scroll; overflow-x:hidden; 
+}
+.overflowbody { 
+    position: absolute; 
+}
+
 body{
     /* background-image: url('title.jpg');
     background-repeat: no-repeat; */
@@ -47,6 +54,13 @@ body{
     background-color: rgb(56, 119, 75);
 }
 
+.finnstartp {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:cyan;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+}
+
 /* #choice{
     background: url('tbg.png') no-repeat;
     background-size: auto;
@@ -73,11 +87,25 @@ body{
 
     width: 300px;
     height: 500px;
+    opacity: 0;
 }
 
 .centertext:hover {
     background-color: rgba(256, 256, 256, 0.5);
+    opacity: 1;
 }
+
+#leifs{
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+/* #leifs:hover {
+    opacity: 1;
+} */
 
 .lefttext{
     position: absolute;
@@ -87,11 +115,26 @@ body{
 
     width: 250px;
     height: 500px;
+    opacity: 0;
 }
 
 .lefttext:hover {
     background-color: rgba(256, 256, 256, 0.5);
+    opacity: 1;
 }
+
+#finns{
+    position: absolute;
+    left:45%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+/* #finns:hover {
+    opacity: 1;
+    color: rebeccapurple;
+} */
 
 .righttext{
     position: absolute;
@@ -101,11 +144,27 @@ body{
 
     width: 250px;
     height: 500px;
+    opacity: 0;
 }
 
 .righttext:hover {
     background-color: rgba(256, 256, 256, 0.5);
+    opacity: 1;
 }
+
+#nannas{
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+/* #nannas:hover {
+    opacity: 1;
+    color: rebeccapurple;
+} */
+
 /* #leifstart{
     position: absolute;
     left:20px;
@@ -134,4 +193,16 @@ body{
   }
   .wrap:hover .centertext {
     display: block;
+  }
+
+  .finnbadendh1 {
+      color: darkred;
+      font-family: 'Zhi Mang Xing', cursive;
+      font-size: 50;
+  }
+
+  .finnbadendp{
+      color: darkred;
+      font-size: 30px;
+      font-family: 'Shadows Into Light', cursive;
   }
