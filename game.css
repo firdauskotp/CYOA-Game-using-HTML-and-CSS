@@ -206,3 +206,59 @@ body{
       font-size: 30px;
       font-family: 'Shadows Into Light', cursive;
   }
+
+  .finnroute2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgray;
+    font-size: 30px;
+    background-color:teal;
+}
+
+#choicelink{
+    color: violet;
+}
+
+.right {
+    float: right;
+    margin-right: 250px;
+    padding: 10px;
+  }
+
+ .left {
+    float: left;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px;
+ }
+
+ .lefttextbig{
+    position: absolute;
+    left:27%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+}
+
+.righttextbig{
+    position: absolute;
+    left:73%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+}
+
+.lefttextbig:hover {
+    background-color: rgba(256, 256, 256, 0.5);
+    opacity: 1;
+}
+
+.righttextbig:hover {
+    background-color: rgba(256, 256, 256, 0.5);
+    opacity: 1;
+}
